@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "wMPUipTW2GS10C/l5nfOok8e+ItFEUaf5a4/qJsgMOM=",
+  "Source": "ManGAGA.UI",
+  "BasePath": "_content/ManGAGA.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ManGAGA.UI\\wwwroot",
+      "Source": "ManGAGA.UI",
+      "ContentRoot": "D:\\Apps\\ManGAGA\\ManGAGA.UI\\wwwroot\\",
+      "BasePath": "_content/ManGAGA.UI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

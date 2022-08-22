@@ -1,0 +1,12 @@
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ErinaScraper.csproj.AssemblyReference.cache
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ErinaScraper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ErinaScraper.AssemblyInfoInputs.cache
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ErinaScraper.AssemblyInfo.cs
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ErinaScraper.csproj.CoreCompileInputs.cache
+D:\Apps\ManGAGA\ErinaScraper\bin\Debug\net6.0\ErinaScraper.deps.json
+D:\Apps\ManGAGA\ErinaScraper\bin\Debug\net6.0\ErinaScraper.dll
+D:\Apps\ManGAGA\ErinaScraper\bin\Debug\net6.0\ErinaScraper.pdb
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ErinaScraper.dll
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\refint\ErinaScraper.dll
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ErinaScraper.pdb
+D:\Apps\ManGAGA\ErinaScraper\obj\Debug\net6.0\ref\ErinaScraper.dll

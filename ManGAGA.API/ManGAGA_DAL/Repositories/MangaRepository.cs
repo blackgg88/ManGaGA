@@ -70,7 +70,7 @@ namespace ManGAGA_DAL.Repositories
 
         public List<MangaG> GetAllMangas()
         {
-            return _context.Mangas.Include(c => c.Chapers).ToList();
+            return _context.Mangas.Include(c => c.Chapers).Include(g => g.Genders).ToList();
         }
 
         //public IEnumerable<Manga> GetMyFollows(int userID)
@@ -82,7 +82,7 @@ namespace ManGAGA_DAL.Repositories
         public MangaG GetById(int id)
         {
             //return _context.Mangas.FirstOrDefault(m => m.MangaID == id);
-            return _context.Mangas.Include(c => c.Chapers).FirstOrDefault(x => x.MangaGId == id);
+            return _context.Mangas.Include(c => c.Chapers).Include(g => g.Genders).FirstOrDefault(x => x.MangaGId == id);
         }
     }
 }

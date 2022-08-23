@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 using System.Text;
+using WebApplicationAPI_BAL.Services;
 
 namespace ManGAGA.UI.Controllers
 {
@@ -15,11 +16,13 @@ namespace ManGAGA.UI.Controllers
     {
         private readonly AppDbContext _context;
         public readonly ITokenService _tokenService;
+        private readonly IPhotoService _photoService;
 
-        public AccountController(AppDbContext context, ITokenService tokenService)
+        public AccountController(AppDbContext context, ITokenService tokenService, IPhotoService photoService)
         {
             _context = context;
             _tokenService = tokenService;
+            _photoService = photoService;
         }
 
 
@@ -56,20 +59,28 @@ namespace ManGAGA.UI.Controllers
 
         //Register
         [HttpPost("register")]
-        public ActionResult<UserDTO> Register(RegisterDTO user)
+        public ActionResult<UserDTO> Register([FromForm]RegisterDTO user)
         {
-            if (UserExists(user.Username))
+            if (UserExists(user.UserName))
                 return BadRequest("User already taken");
 
             using var hmac = new HMACSHA512();
 
             var newUser = new User()
             {
-                UserName = user.Username,
+                UserName = user.UserName,
                 PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(user.Password)),
                 PasswordSalt = hmac.Key,
                 AccountType = user.AccountType
             };
+
+            if (user.Profile != null)
+            {
+                string photoUrl = SavePhoto(user.Profile);
+
+                newUser.Profile = photoUrl;
+            }
+
             _context.Users.Add(newUser);
             _context.SaveChanges();
 
@@ -77,7 +88,7 @@ namespace ManGAGA.UI.Controllers
 
             var userDto = new UserDTO()
             {
-                UserName = user.Username,
+                UserName = user.UserName,
                 Token = token
             };
 
@@ -87,6 +98,18 @@ namespace ManGAGA.UI.Controllers
         private bool UserExists(string username)
         {
            return _context.Users.Any(x => x.UserName == username);
+        }
+
+        private string SavePhoto(IFormFile photo)
+        {
+            var stream = new MemoryStream();
+
+            photo.CopyToAsync(stream);
+
+            var fileBytes = stream.ToArray();
+
+            return _photoService
+                .Create(fileBytes, photo.ContentType, Path.GetExtension(photo.FileName), "UserProfile", Guid.NewGuid().ToString());
         }
     }
 }

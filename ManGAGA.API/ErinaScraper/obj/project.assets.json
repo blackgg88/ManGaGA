@@ -8,10 +8,14 @@
           "System.Text.Encoding.CodePages": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/AngleSharp.dll": {}
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/AngleSharp.dll": {}
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/2.0.0": {
@@ -26,10 +30,14 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Text.Encoding.CodePages/4.5.0": {
@@ -39,7 +47,9 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
@@ -179,11 +189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Apps\\ManGAGA\\ErinaScraper\\ErinaScraper.csproj",
+      "projectUniqueName": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ErinaScraper\\ErinaScraper.csproj",
       "projectName": "ErinaScraper",
-      "projectPath": "D:\\Apps\\ManGAGA\\ErinaScraper\\ErinaScraper.csproj",
+      "projectPath": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ErinaScraper\\ErinaScraper.csproj",
       "packagesPath": "C:\\Users\\Kuro\\.nuget\\packages\\",
-      "outputPath": "D:\\Apps\\ManGAGA\\ErinaScraper\\obj\\",
+      "outputPath": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ErinaScraper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kuro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,7 +233,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -232,7 +243,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

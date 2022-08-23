@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wMPUipTW2GS10C/l5nfOok8e+ItFEUaf5a4/qJsgMOM=",
+  "Hash": "mu4oQWBByZkvnx0Q8vv3x8Haqhvfbec48TQ1/WAZTCw=",
   "Source": "ManGAGA.UI",
   "BasePath": "_content/ManGAGA.UI",
   "Mode": "Default",
@@ -10,10 +10,45 @@
     {
       "Name": "ManGAGA.UI\\wwwroot",
       "Source": "ManGAGA.UI",
-      "ContentRoot": "D:\\Apps\\ManGAGA\\ManGAGA.UI\\wwwroot\\",
+      "ContentRoot": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA.UI\\wwwroot\\",
       "BasePath": "_content/ManGAGA.UI",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA.UI\\wwwroot\\MangaImage\\587b5b6d-efb1-47d6-8405-eeb872c0a7e1.png",
+      "SourceId": "ManGAGA.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA.UI\\wwwroot\\",
+      "BasePath": "_content/ManGAGA.UI",
+      "RelativePath": "MangaImage/587b5b6d-efb1-47d6-8405-eeb872c0a7e1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MangaImage\\587b5b6d-efb1-47d6-8405-eeb872c0a7e1.png"
+    },
+    {
+      "Identity": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA.UI\\wwwroot\\UserProfile\\d387a175-5412-4669-b7de-04247b01005f.jpg",
+      "SourceId": "ManGAGA.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA.UI\\wwwroot\\",
+      "BasePath": "_content/ManGAGA.UI",
+      "RelativePath": "UserProfile/d387a175-5412-4669-b7de-04247b01005f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UserProfile\\d387a175-5412-4669-b7de-04247b01005f.jpg"
+    }
+  ]
 }

@@ -42,6 +42,10 @@ namespace ManGAGA.UI
             services.AddScoped<IMangaRepository, MangaRepository>();
             services.AddScoped<IMangaService, MangaService>();
 
+            //-------------------------- Genders --------------------------
+            services.AddScoped<IGendersRepository, GendersRepository>();
+            services.AddScoped<IGendersService, GendersService>();
+
             //-------------------------- Photos --------------------------
             services.AddScoped<IPhotoService, PhotoService>();
 

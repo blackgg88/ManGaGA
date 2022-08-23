@@ -15,6 +15,7 @@ namespace ManGAGA_DAL.Data
         public DbSet<Chaper> Chapers { get; set; }
         public DbSet<Page> Pages { get; set; }
         public DbSet<Genders> Genders { get; set; }
+        public DbSet<Favourites> Favorites { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {            

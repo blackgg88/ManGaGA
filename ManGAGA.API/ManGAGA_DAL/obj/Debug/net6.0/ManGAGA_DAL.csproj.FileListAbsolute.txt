@@ -12,3 +12,17 @@ D:\Apps\ManGAGA\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.pdb
 D:\Apps\ManGAGA\ManGAGA_DAL\obj\Debug\net6.0\ref\ManGAGA_DAL.dll
 D:\Apps\ManGAGA\ManGAGA_DAL\bin\Debug\net6.0\ManGAGA_DAL.runtimeconfig.json
 D:\Apps\ManGAGA\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.genruntimeconfig.cache
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\bin\Debug\net6.0\ManGAGA_DAL.deps.json
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\bin\Debug\net6.0\ManGAGA_DAL.runtimeconfig.json
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\bin\Debug\net6.0\ManGAGA_DAL.dll
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\bin\Debug\net6.0\ManGAGA_DAL.pdb
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.csproj.AssemblyReference.cache
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.AssemblyInfoInputs.cache
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.AssemblyInfo.cs
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.csproj.CoreCompileInputs.cache
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.dll
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\refint\ManGAGA_DAL.dll
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.pdb
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ManGAGA_DAL.genruntimeconfig.cache
+D:\Apps\ManGAGA\ManGAGA.API\ManGAGA_DAL\obj\Debug\net6.0\ref\ManGAGA_DAL.dll

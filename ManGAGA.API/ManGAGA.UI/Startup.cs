@@ -46,6 +46,10 @@ namespace ManGAGA.UI
             services.AddScoped<IGendersRepository, GendersRepository>();
             services.AddScoped<IGendersService, GendersService>();
 
+            //-------------------------- Chapers --------------------------
+            services.AddScoped<IChaperRepository, ChaperRepository>();
+            services.AddScoped<IChaperService, ChaperService>();
+
             //-------------------------- Photos --------------------------
             services.AddScoped<IPhotoService, PhotoService>();
 

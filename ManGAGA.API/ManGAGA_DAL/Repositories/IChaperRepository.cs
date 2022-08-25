@@ -11,7 +11,7 @@ namespace ManGAGA_DAL.Repositories
     {
         public List<Chaper> GetChapers();
         public Chaper GetChaper(int id);
-        public void AddChaper(ChaperCreationDTO chaperDTO);
+        public void AddChaper(Chaper chaper);
         public bool DeleteChaper(int id);
         public Chaper UpdateChaper(Chaper chaper);
     }

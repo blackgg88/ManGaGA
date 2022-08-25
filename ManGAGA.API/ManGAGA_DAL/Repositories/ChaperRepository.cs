@@ -1,5 +1,6 @@
 ﻿using ManGAGA_DAL.Data;
 using ManGAGA_DAL.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -18,29 +19,64 @@ namespace ManGAGA_DAL.Repositories
             _context = context;
         }
 
-        public void AddChaper(ChaperCreationDTO chaperDTO)
+        public void AddChaper(Chaper chaper)
         {
-            throw new NotImplementedException();
+            if (chaper != null)
+            {
+                try
+                {
+                    _context.Chapers.Add(chaper);
+                    _context.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
         }
 
         public bool DeleteChaper(int id)
         {
-            throw new NotImplementedException();
+            var chaper = _context.Chapers.Find(id);
+
+            if (chaper != null)
+            {
+                try
+                {
+                    _context.Chapers.Remove(chaper);
+                    _context.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                return true;
+            }
+            return false;
         }
 
         public Chaper GetChaper(int id)
         {
-            throw new NotImplementedException();
+            return _context.Chapers.Include(p => p.Pages).FirstOrDefault(x => x.ChaperID == id);
         }
 
         public List<Chaper> GetChapers()
         {
-            throw new NotImplementedException();
+            return _context.Chapers.Include(p => p.Pages).ToList();
         }
 
         public Chaper UpdateChaper(Chaper chaper)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Chapers.Update(chaper);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return chaper;
         }
     }
 }

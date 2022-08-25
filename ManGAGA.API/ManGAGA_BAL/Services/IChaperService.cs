@@ -10,13 +10,16 @@ namespace ManGAGA_BAL.Services
 {
     public interface IChaperService
     {
-        public List<Chaper> GetAllChapers();
-        public Chaper GetChaperNumber(int chaperID);
+        public List<Chaper> GetChapers();
+        public Chaper GetChaper(int chaperID);
+        public void AddChaper(ChaperCreationDTO chaperDTO);
+        public bool DeleteChaper(int chaperID);
+        public Chaper EditChaper(int chaperID, ChaperCreationDTO updatedChaper);
+
+
+
+        public void AddPages(List<Page> pages);
         public List<Page> GetAllPages(int chaperID);
         public Page GetPageNumber(int chaperID, int pageNumber);
-        public void AddPages(List<Page> pages);
-        public void AddChaper(ChaperDTO chaperDto);
-        public bool DeleteChaper(int chaperID);
-        public Chaper EditChaper(int chaperID, ChaperDTO updatedChaper);
     }
 }

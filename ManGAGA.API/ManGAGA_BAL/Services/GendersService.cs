@@ -24,7 +24,7 @@ namespace ManGAGA_BAL.Services
             {
                 Genders gender = new Genders()
                 {
-                    name = genderDTO.name,
+                    Name = genderDTO.Name,
                 };
 
                 _gendersRepository.AddGender(gender);
@@ -71,7 +71,7 @@ namespace ManGAGA_BAL.Services
 
         public Genders GetGenderByName(string name)
         {
-            return _gendersRepository.GetAllGenders().FirstOrDefault(x => x.name == name);
+            return _gendersRepository.GetAllGenders().FirstOrDefault(x => x.Name == name);
         }
 
         public Genders UpdateGender(int id, GendersCreationDTO genderDTO)
@@ -80,7 +80,7 @@ namespace ManGAGA_BAL.Services
 
             if (gender != null)
             {
-                gender.name = genderDTO.name;
+                gender.Name = genderDTO.Name;
 
                 try
                 {

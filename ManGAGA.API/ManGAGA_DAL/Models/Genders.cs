@@ -8,7 +8,7 @@ namespace ManGAGA_DAL.Models
 {
     public class Genders
     {
-        public int gendersID { get; set; }
-        public string name { get; set; }
+        public int GendersID { get; set; }
+        public string Name { get; set; }
     }
 }

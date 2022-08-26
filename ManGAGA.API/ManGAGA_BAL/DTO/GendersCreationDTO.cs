@@ -8,6 +8,6 @@ namespace ManGAGA_BAL.DTO
 {
     public class GendersCreationDTO
     {
-        public string name { get; set; }
+        public string Name { get; set; }
     }
 }

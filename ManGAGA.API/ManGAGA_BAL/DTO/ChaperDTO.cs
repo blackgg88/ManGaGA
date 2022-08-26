@@ -13,7 +13,7 @@ namespace ManGAGA_BAL.DTO
         public string Name { get; set; }
         public int Number { get; set; }
         public MangaG Manga { get; set; }
-        public int MangaID { get; set; }
+        public int MangaGID { get; set; }
         public List<Page> Pages { get; set; } = new List<Page>();
     }
 }

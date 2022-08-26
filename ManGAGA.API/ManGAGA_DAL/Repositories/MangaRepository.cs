@@ -83,7 +83,7 @@ namespace ManGAGA_DAL.Repositories
         public MangaG GetById(int id)
         {
             //return _context.Mangas.FirstOrDefault(m => m.MangaID == id);
-            return _context.Mangas.Include(c => c.Chapers).Include(g => g.Genders).FirstOrDefault(x => x.MangaGId == id);
+            return _context.Mangas.Include(c => c.Chapers).Include(g => g.Genders).FirstOrDefault(x => x.MangaGID == id);
         }
     }
 }

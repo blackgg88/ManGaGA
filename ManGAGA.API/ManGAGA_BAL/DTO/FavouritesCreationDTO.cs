@@ -11,6 +11,6 @@ namespace ManGAGA_BAL.DTO
     {
         public List<MangaG> Mangas { get; set; } = new List<MangaG>();
         //public List<Manga> MangasTMO { get; set; } = new List<Manga>();
-        public int userId { get; set; }
+        public int UserID { get; set; }
     }
 }

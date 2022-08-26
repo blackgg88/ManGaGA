@@ -8,10 +8,10 @@ namespace ManGAGA_DAL.Models
 {
     public class Favourites
     {
-        public int FavouritesId { get; set; }
+        public int FavouritesID { get; set; }
         public List<MangaG> Mangas { get; set; } = new List<MangaG>();
         //public List<Manga> MangasTMO { get; set; } = new List<Manga>();
-        public int userId { get; set; }
-        public User user { get; set; }
+        public int UserID { get; set; }
+        public User User { get; set; }
     }
 }

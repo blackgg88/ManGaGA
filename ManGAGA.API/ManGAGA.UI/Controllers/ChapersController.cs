@@ -52,7 +52,7 @@ namespace ManGAGA.UI.Controllers
         [HttpGet("{mangaID}")]
         public async Task<ActionResult<List<Chaper>>> GetChapersByManga(int mangaID)
         {
-            var chapers = _chaperService.GetChapers().Where(x => x.MangaID == mangaID).ToList();
+            var chapers = _chaperService.GetChapers().Where(x => x.MangaGID == mangaID).ToList();
 
             if (chapers == null)
             {

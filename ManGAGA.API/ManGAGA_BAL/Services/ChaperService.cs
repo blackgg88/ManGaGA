@@ -25,7 +25,7 @@ namespace ManGAGA_BAL.Services
                 {
                     Name = chaperDTO.Name,
                     Number = chaperDTO.Number,
-                    MangaID = chaperDTO.MangaID,
+                    MangaGID = chaperDTO.MangaGID,
                 };
 
                 _chaperRepository.AddChaper(chaper);
@@ -73,7 +73,7 @@ namespace ManGAGA_BAL.Services
             {
                 chaper.Name = updatedChaper.Name;
                 chaper.Number = updatedChaper.Number;
-                chaper.MangaID = updatedChaper.MangaID;
+                chaper.MangaGID = updatedChaper.MangaGID;
 
                 try
                 {

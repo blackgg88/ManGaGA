@@ -10,10 +10,11 @@ namespace ManGAGA_BAL.Services
 {
     public interface IPageService
     {
-        public IEnumerable<Page> GetAllPages();
+        public List<Page> GetPages();
         public Page GetPage(int pageID);
-        public void AddPage(PageDTO pageDto);
-        public Page EditPage(PageDTO updatedPage);
-        public void DeletePage(int ChaperID, int pageID);
+        public List<Page> GetPagesByChaper(int chaperID);
+        public void AddPage(PageCreationDTO pageDTO);
+        public Page EditPage(int pageID, PageCreationDTO updatedPage);
+        public bool DeletePage(int pageID);
     }
 }

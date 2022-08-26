@@ -70,7 +70,8 @@ namespace ManGAGA_DAL.Repositories
 
         public List<MangaG> GetAllMangas()
         {
-            return _context.Mangas.Include(c => c.Chapers).Include(g => g.Genders).ToList();
+            return _context.Mangas.Include(c => c.Chapers).ThenInclude(p => p.Pages)
+                .Include(g => g.Genders).ToList();
         }
 
         //public IEnumerable<Manga> GetMyFollows(int userID)

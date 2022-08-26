@@ -50,6 +50,10 @@ namespace ManGAGA.UI
             services.AddScoped<IChaperRepository, ChaperRepository>();
             services.AddScoped<IChaperService, ChaperService>();
 
+            //-------------------------- Pages --------------------------
+            services.AddScoped<IPageRepository, PageRepository>();
+            services.AddScoped<IPageService, PageService>();
+
             //-------------------------- Photos --------------------------
             services.AddScoped<IPhotoService, PhotoService>();
 

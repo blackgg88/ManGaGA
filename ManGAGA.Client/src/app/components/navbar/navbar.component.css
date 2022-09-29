@@ -1,0 +1,99 @@
+.header_top{
+    padding: 20px;
+    width: 100%;
+    height: 75px;
+    background-color: #1e1e27;
+    color: white;
+}
+
+.search_input{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #000000cb;
+}
+
+.search_input:active{
+    transition-delay: 10s;
+}
+
+.search_form{
+    border-radius: 50px;
+    width: 400px;
+    background-color: white;
+}
+
+#searchInput{
+    all: unset;
+    padding-left: 10px;
+    width: 85%;
+}
+
+.search_button{    
+    all: unset;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.search_button :hover{
+    cursor: pointer;
+}
+
+.main_navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c_logo a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+	font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.c_logo a span{
+	color: #fe4c50;
+}
+
+.main_menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.search-sidebar{
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding-bottom: 6px;
+}
+
+.menu_items a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+	font-weight: 700;
+    padding: 0px 15px;
+}
+
+.c_togle_menu{
+    display: flex;    
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bar{
+    height: 7px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}

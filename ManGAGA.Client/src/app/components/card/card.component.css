@@ -1,0 +1,125 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+
+    border: 2px solid black;
+}
+
+.card-items{
+    border-radius: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.card-items img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.chaper a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: -60px;
+    margin-left: 5px;
+    position: absolute;
+    text-decoration: none;
+    color: #ccc;
+    font-family: poppins,sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.chaper a:hover, .card-name a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.card-name{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card-name a{
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+    font-family: poppins,sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        height: 290px;
+        width: 180px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .chaper a{
+        margin-top: -50px;
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .card-name{    
+        margin-top: 2px;
+    }
+
+    .card-name a{
+        font-size: 13px;
+        font-weight: 900;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .card{
+        height: 230px;
+        width: 140px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .card{
+        height: 220px;
+        width: 130px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .chaper a{
+        margin-top: -40px;
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .card-name{    
+        margin-top: 2px;
+    }
+
+    .card-name a{
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
+

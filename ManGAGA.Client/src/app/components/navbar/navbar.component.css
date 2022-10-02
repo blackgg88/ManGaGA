@@ -9,13 +9,10 @@
 .search_input{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     width: 100%;
     background-color: #000000cb;
-}
-
-.search_input:active{
-    transition-delay: 10s;
 }
 
 .search_form{

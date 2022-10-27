@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "k84N4p6o/nr/T0rDlLsGhaGqnnHZbPKfEbHMOXfAhrcZUsff+QdALO7jjbTcfx2X2BEBhjgWFFX5J040i/IofA==",
+  "dgSpecHash": "4EeqzWWXjGuWcWE6hv8hRWdnj50Bn9GUAZOpvduegK7ZBPN/OfFXzw4p6ZnmMCyJ1Th4pjaCvtpzLOckpYvpSQ==",
   "success": true,
-  "projectFilePath": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ErinaScraper\\ErinaScraper.csproj",
+  "projectFilePath": "D:\\Apps\\ManGaGA\\ManGAGA.API\\ErinaScraper\\ErinaScraper.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kuro\\.nuget\\packages\\anglesharp\\1.0.0-alpha-844\\anglesharp.1.0.0-alpha-844.nupkg.sha512",
-    "C:\\Users\\Kuro\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "C:\\Users\\Kuro\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
-    "C:\\Users\\Kuro\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    "C:\\Users\\Saul\\.nuget\\packages\\anglesharp\\1.0.0-alpha-844\\anglesharp.1.0.0-alpha-844.nupkg.sha512",
+    "C:\\Users\\Saul\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Saul\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\Saul\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

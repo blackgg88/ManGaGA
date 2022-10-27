@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CardComponent } from './components/card/card.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { TrendingsComponent } from './components/trendings/trendings.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     NavbarComponent,
     HomeComponent,
     CarouselComponent,
-    CardComponent
+    CardComponent,
+    TrendingsComponent
   ],
   imports: [
     BrowserModule,

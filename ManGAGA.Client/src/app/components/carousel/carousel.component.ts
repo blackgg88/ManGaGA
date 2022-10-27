@@ -20,6 +20,7 @@ export class CarouselComponent implements OnInit {
     "slidesToShow": 3, 
     "slidesToScroll": 1, 
     "dots": true,
+    "arrows": false,
     "infinite": true, 
     "autoplay" : true, 
     "autoplaySpeed" : 3000,

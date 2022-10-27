@@ -41,7 +41,7 @@
 .main_navigation{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .c_logo a{
@@ -57,16 +57,17 @@
 }
 
 .main_menu{
+    align-items: center;
     display: flex;
     width: 30%;
     justify-content: space-between;
 }
 
 .search-sidebar{
-    width: 40px;
+    width: 35px;
     border-radius: 50%;
     background-color: white;
-    padding-bottom: 6px;
+    padding: 2px 2px;
 }
 
 .menu_items a{

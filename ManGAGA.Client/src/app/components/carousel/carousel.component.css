@@ -42,7 +42,7 @@ img{
 }
 
   
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     .carousel{
         height: 180px;
     }
@@ -54,7 +54,7 @@ img{
     .slide-items{
         max-width: 300px;
     }
-  }
+}
 
   @media only screen and (max-width: 420px) {
     .slide-items{

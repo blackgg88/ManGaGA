@@ -106,7 +106,7 @@ namespace ManGAGA.UI.Controllers
         }
 
         //PUT: api/Chapers/chaperID
-        [HttpPut("{mangaID}")]
+        [HttpPut("{chaperID}")]
         public async Task<IActionResult> PutChaper(int mangaID, ChaperCreationDTO chaperDTO)
         {
             var chapers = _chaperService.GetChapers();

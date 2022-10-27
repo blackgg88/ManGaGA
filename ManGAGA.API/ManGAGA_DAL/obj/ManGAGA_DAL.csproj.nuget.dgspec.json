@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj": {}
+    "D:\\Apps\\ManGaGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj": {}
   },
   "projects": {
-    "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj": {
+    "D:\\Apps\\ManGaGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj",
+        "projectUniqueName": "D:\\Apps\\ManGaGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj",
         "projectName": "ManGAGA_DAL",
-        "projectPath": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj",
-        "packagesPath": "C:\\Users\\Kuro\\.nuget\\packages\\",
-        "outputPath": "D:\\Apps\\ManGAGA\\ManGAGA.API\\ManGAGA_DAL\\obj\\",
+        "projectPath": "D:\\Apps\\ManGaGA\\ManGAGA.API\\ManGAGA_DAL\\ManGAGA_DAL.csproj",
+        "packagesPath": "C:\\Users\\Saul\\.nuget\\packages\\",
+        "outputPath": "D:\\Apps\\ManGaGA\\ManGAGA.API\\ManGAGA_DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kuro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Saul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
